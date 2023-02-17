@@ -1,1 +1,119 @@
+body {
+    margin: 0;
+   background-image: url(./Images/background.png);
+  
+}
+
+.navigation {
+    background-color: navy;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 26px;
+    padding: 15px;
+    display: flex;
+    justify-content:space-around;
+    align-items: stretch
+}
+ 
+
+a:link { color: white}
+a:hover {color: orange}
+a:active {color: rgb(233, 167, 233)}
+a:visited {color:yellow}
+
+
+.nav-left {
+    text-decoration: none;
+    color: yellow;
+    padding:0 10px;
+    
+    
+   
+    
+       
+}
+
+.nav-right {
+    text-decoration: none;
+    justify-content: center;
+}
+
+.content {
+    max-width: 800px;
+    margin: 50px auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items:flex-start
+  
+   
+}
+
+.About-me {
+    background-color: white;
+    width: 400px;
+    
+   
+}
+
+
+h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    margin: 20px 0 10px 5px;
+    border-bottom: 2px solid navy;
+}
+
+.profilephoto {
+    width: 200px;
+    height: 133px;
+    float: left;
+    padding: 0 10px 5px 5px;
+    
+}
+
+
+.lorem {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0 10px;
+    text-indent: 0.25in;
+}
+
+.connect {
+    background-color: white;
+    width: 170px;
+    text-align: center;
+    padding: 0 0 10px 0;
+    
+
+}
+
+
+h2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+    border-bottom: 2px solid navy;
+    padding: 10px 0 9px 0
+
+}
+
+
+.logos {
+    width: 30px;
+    height: 30px;
+    padding: 0 2px;
+    margin: 0 3px;
+    border: 1px solid blue;
+    box-shadow: 2px 2px 1px;  
+}
+
+
+footer {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+
 
