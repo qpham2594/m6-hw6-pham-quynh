@@ -5,7 +5,7 @@ body {
 }
 
 .navigation {
-    background-color: navy;
+    background-color: rgb(0, 146, 132);
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 26px;
     padding: 15px;
@@ -15,22 +15,13 @@ body {
 }
  
 
-a:link { color: white}
-a:hover {color: orange}
-a:active {color: rgb(233, 167, 233)}
-a:visited {color:yellow}
-
-
 .nav-left {
     text-decoration: none;
     color: yellow;
     padding:0 10px;
-    
-    
-   
-    
-       
+         
 }
+
 
 .nav-right {
     text-decoration: none;
@@ -48,6 +39,7 @@ a:visited {color:yellow}
   
    
 }
+
 
 .About-me {
     background-color: white;
